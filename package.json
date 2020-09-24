@@ -1,0 +1,32 @@
+{
+  "name": "obd-sockets",
+  "version": "1.0.0",
+  "description": "A Node.js, Express.js, Socket.IO, Redis server for my OBDII project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwilliamsnephos/obd-sockets.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Socket.IO",
+    "Redis",
+    "OBDII"
+  ],
+  "author": "Joshua Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwilliamsnephos/obd-sockets/issues"
+  },
+  "homepage": "https://github.com/jwilliamsnephos/obd-sockets#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
